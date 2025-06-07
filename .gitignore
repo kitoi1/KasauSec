@@ -192,3 +192,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+__pycache__/
+*.pyc
+*.log
+*.sqlite3
+.env
+.env.*
+.vscode/
+.idea/
+*.pdf
+*.html
+output/
+reports/
