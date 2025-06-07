@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+tk
+rich
+nmap
+python-nmap
+Jinja2
+pdfkit
+termcolor
+colorama
+subprocess.run
