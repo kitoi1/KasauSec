@@ -16,6 +16,9 @@ Features:
 
 Usage:
 ```bash
-python3 main.py
+python3 main.py --target example.com --recon --scan --exploit --report
 ```
+```
+python3 main.py --target testsite.com --recon --scan
+
 """
